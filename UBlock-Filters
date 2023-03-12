@@ -15,3 +15,12 @@ m.youtube.com##ytm-browse ytm-item-section-renderer ytm-compact-video-renderer:h
 m.youtube.com##ytm-search ytm-compact-video-renderer:has(ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"])
 m.youtube.com##ytm-single-column-watch-next-results-renderer ytm-video-with-context-renderer:has(ytm-thumbnail-overlay-time-status-renderer span:has-text(/^(0:\d\d|1:0\d)$/))
 cdn.myanimelist.net/images/favicon.ico$image
+youtube.com##ytd-shelf-renderer.style-scope:has(span:has-text(/Related to your search/i))
+youtube.com##ytd-shelf-renderer:has-text(/Les internautes ont aussi regardé/)
+youtube.com###contents > ytd-shelf-renderer:has-text(/Pour vous/)
+youtube.com##ytd-shelf-renderer.style-scope:has(span:has-text(/Regardées précédemment/i))
+youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.style-scope:has(span:has-text(/Searches related to/i))
+youtube.com##ytd-shelf-renderer.style-scope:has(span:has-text(/Learn while you're at home/i))
+youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.style-scope
+youtube.com###secondary > .ytd-two-column-search-results-renderer
+youtube.com###contents > .ytd-secondary-search-container-renderer.style-scope
