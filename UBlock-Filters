@@ -23,7 +23,3 @@ youtube.com##ytd-shelf-renderer:has-text(/Les internautes ont aussi regardé/)
 youtube.com###contents > ytd-shelf-renderer:has-text(/Pour vous/)
 youtube.com##ytd-shelf-renderer.style-scope:has(span:has-text(/Regardées précédemment/i))
 youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.style-scope:has(span:has-text(/Searches related to/i))
-
-
-youtube.com###secondary > .ytd-two-column-search-results-renderer
-youtube.com###contents > .ytd-secondary-search-container-renderer.style-scope
