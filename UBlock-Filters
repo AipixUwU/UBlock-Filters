@@ -18,8 +18,4 @@ m.youtube.com##ytm-search ytm-thumbnail-overlay-time-status-renderer[data-style=
 m.youtube.com##ytm-single-column-watch-next-results-renderer ytm-thumbnail-overlay-time-status-renderer span:has-text(/^(0:\d\d|1:0\d)$/):upward(ytm-video-with-context-renderer)
 
 cdn.myanimelist.net/images/favicon.ico$image
-youtube.com##ytd-shelf-renderer.style-scope:has(span:has-text(/Related to your search/i))
-youtube.com##ytd-shelf-renderer:has-text(/Les internautes ont aussi regardé/)
-youtube.com###contents > ytd-shelf-renderer:has-text(/Pour vous/)
-youtube.com##ytd-shelf-renderer.style-scope:has(span:has-text(/Regardées précédemment/i))
-youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.style-scope:has(span:has-text(/Searches related to/i))
+
