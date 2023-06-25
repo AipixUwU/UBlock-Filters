@@ -20,3 +20,5 @@ youtube.com##ytd-shelf-renderer.style-scope:has(span:has-text(/Regardées préc�
 youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.style-scope
 youtube.com###secondary > .ytd-two-column-search-results-renderer
 youtube.com###contents > .ytd-secondary-search-container-renderer.style-scope
+youtube.com##ytd-rich-grid-row, #contents.ytd-rich-grid-row:style(display:contents !important;)
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] .ytd-thumbnail[href^="/shorts/"]:upward(ytd-grid-video-renderer,ytd-rich-item-renderer)
